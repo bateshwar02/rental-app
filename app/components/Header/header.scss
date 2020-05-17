@@ -9,7 +9,7 @@
 .headerRow { display: flex; flex-direction: row;
   justify-content: space-between; margin: 0px 120px; align-items: center;
   .logoText {color: #ffffff; font-size: 16px; font-weight: 600;}
-     .location { margin-right: 200px; }
+     .location { margin-right: 150px; }
     }
 }
 
@@ -37,7 +37,7 @@
 #menu ul.menus li { display: block; width: 100%;  font: 12px Arial;  text-transform: none; }
 #menu li:hover ul.menus { display: block }
 #menu span.prett {
-  padding: 0 27px 0 14px
+  padding: 0 27px 0 14px; min-width: 180px; 
 }
 
 #menu span.locationText::after {
