@@ -13,7 +13,7 @@
   .catalogListing {display: flex; flex-wrap: wrap;
     .listing{display: flex; flex-direction: column; justify-content: center; align-items: center; margin: 20px 15px 0px 0px;
       border: 1px solid #ffffff; box-shadow: 1px 2px 4px 1px rgba(99,99,99,.2); 
-      .imageWrapper {
+      .imageWrapper { cursor: pointer;
          img {height: 200px; width: 200px;}
        }
        .textWrapper{background: #2AB8E9; display: flex; justify-content: center; cursor: pointer;
