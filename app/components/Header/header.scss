@@ -36,7 +36,9 @@
 
 #menu ul.menus li { display: block; width: 100%;  font: 12px Arial;  text-transform: none; }
 #menu li:hover ul.menus { display: block }
-#menu span.prett { padding: 0 27px 0 14px; min-width: 180px; }
+#menu span.prett {
+  padding: 0 27px 0 14px; min-width: 180px; 
+}
 
 #menu span.locationText::after {
   content: "";
